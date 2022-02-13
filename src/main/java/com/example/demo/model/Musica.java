@@ -1,7 +1,9 @@
 package com.example.demo.model;
 
+import org.springframework.data.annotation.Id;
+
 public class Musica {
-    
+    @Id
     private String Id;
     private String titulo;
     private String artita;
